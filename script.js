@@ -13,6 +13,9 @@ class Person {
 	{
 		this._age=newAge;
 	}
+	  get age() {
+    return this._age;
+  }
 }
 
 class Student extends Person {
